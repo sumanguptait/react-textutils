@@ -4,7 +4,6 @@ import TextForm from "./components/TextForm";
 import About from "./components/About";
 import React, { useState } from "react";
 import Alert from "./components/Alert";
-import Counter from "./components/Counter";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -61,7 +60,6 @@ function App() {
 
         <Alert alert={alert} mode={mode} />
         <div className="container my-3">
-          <Counter />
           <Routes>
             <Route
               exact
