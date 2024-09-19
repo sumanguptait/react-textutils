@@ -34,13 +34,13 @@ function App() {
       showAlert("Light mode has been Enabled", "success");
     }
   };
-  const changegreen = () => {
+  const changeGreen = () => {
     document.body.style.backgroundColor = "#35C649";
   };
-  const changeyellow = () => {
+  const changeYellow = () => {
     document.body.style.backgroundColor = "#CAB911";
   };
-  const changered = () => {
+  const changeRed = () => {
     document.body.style.backgroundColor = "#C15031";
   };
 
@@ -53,9 +53,9 @@ function App() {
           title="TextUtils"
           mode={mode}
           toggleMode={toggleMode}
-          changegreen={changegreen}
-          changered={changered}
-          changeyellow={changeyellow}
+          changeGreen={changeGreen}
+          changeRed={changeRed}
+          changeYellow={changeYellow}
         />
 
         <Alert alert={alert} mode={mode} />
